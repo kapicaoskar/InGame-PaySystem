@@ -1,5 +1,5 @@
 # InGame-PaySystem
-Payment system in FiveM game written in Lua, JQuery, HTML and CSS
+Payment system in FiveM game written in Lua, JQuery , JavaScript, HTML and CSS
 <br>
 *You need to connect it to your own API*
 <br>
