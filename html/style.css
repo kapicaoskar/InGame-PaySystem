@@ -1,0 +1,956 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #475569;; 
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #6366F1; 
+    border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6366F1; 
+}
+
+body {
+    background-color: #0F172A;
+    overflow: hidden;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.root {
+    transform: translateY(-5%);
+}
+
+
+.tos p {
+width: 489px;
+height: 30px;
+font-weight: 400;
+font-size: 12px;
+color: rgba(255, 255, 255, 0.8);
+margin-left: 39px;
+}
+
+
+.payment-form {
+    width: 665px;
+    min-height: 769px;
+    max-height: 989px;
+    background: #1E293B;
+    border-radius: 5px;
+}
+
+.tos span {
+    color: #818CF8
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #6366F1;
+}
+
+header h1 {
+    padding: 4px 35px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    padding: 8px 16px;
+}
+
+
+.items-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-container h1 {
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+    padding: 23px 35px ;
+
+}
+
+
+.items-container i {
+    color: red;
+    font-size: 18px;
+    width: 20px;
+    margin: 35px;
+    transition: all 0.2s ease-out;
+}
+
+.items-container i:hover {
+    color: rgb(245, 92, 92);
+    transform: translate(0, -2px);
+
+}
+
+
+.items-box {
+    margin-top: -20px; 
+    width: 650px;
+    min-height: 121px;
+    max-height: 242px;
+    overflow: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.item-box {
+    margin: 0px 0px;
+    width: 295px;
+    min-height: 115px;
+    background: linear-gradient(90deg, #334155 0%, #475569 100%);
+    border-radius: 10px;
+    display:inline-block;
+
+}
+
+
+.payment-methods h1 {
+    font-size: 18px;
+    margin-top: 30px;
+    padding-left: 35px;
+}
+
+
+
+
+.paypal-method {
+box-sizing: border-box;
+width: 139px;
+height: 73.28px;
+background: #334155;
+border: 1px solid #334155;
+border-radius: 10px;
+
+
+}
+
+
+
+.blik-method {
+    box-sizing: border-box;
+    width: 139px;
+    height: 73.28px;
+    background: #334155;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    
+    
+    }
+
+    
+.psc-method {
+    box-sizing: border-box;
+    width: 139px;
+    height: 73.28px;
+    background: #334155;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    
+    
+    }
+
+    
+.transfer-method {
+    box-sizing: border-box;
+    width: 139px;
+    height: 73.28px;
+    background: #334155;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    
+    
+    }
+
+.payment-props {
+    margin-left: 35px;
+
+}
+
+
+.payment-props img {
+
+width: 84.12px;
+height: 63.09px;
+margin-top: -3px;
+}
+
+
+.payment-props p {
+margin-top: -20px;
+font-weight: 600;
+font-size: 14px;
+color: #FFFFFF;
+margin-left: -3px;
+}
+
+.paypal-method p {
+    margin-top: -20px;
+}
+.paypal-method img {
+margin-top: -5px;
+}
+
+
+.blik-method img {
+    width: 54.12px;
+    height: 30.09px;
+    margin-top: 13px;
+}
+
+.blik-method p {
+margin-top: -5px;
+}
+
+.blik-method {
+    transition: all 0.5s ease-out;
+    margin-left: 150px;
+    margin-top: -73px;
+}
+
+.blik-method:hover {
+    border: 1.5px solid #6366F1;
+}
+
+.paypal-method:hover {
+    border: 1.5px solid #6366F1;
+}
+
+.paypal-method {
+    transition: all 0.5s ease-out;
+}
+
+
+.transfer-method img {
+    width: 60.09px;
+    height: 60.09px;
+    margin-left: 13px;
+}
+
+
+
+.transfer-method {
+    transition: all 0.5s ease-out;
+    margin-left: 300px;
+    margin-top: -73px;
+}
+
+.transfer-method:hover {
+    border: 1.5px solid #6366F1;
+}
+
+.psc-method img {
+    height: 18px;
+    margin-top: 21px;
+    width: 100px
+}
+
+.psc-method p {
+
+    margin-top: -3px;
+}
+
+.psc-method {
+    transition: all 0.5s ease-out;
+    margin-left: 450px;
+    margin-top: -73px;
+}
+
+.psc-method:hover {
+    border: 1.5px solid #6366F1;
+}
+
+
+#email {
+
+width: 234px;
+height: 39px;
+border-color: transparent;
+background: #475569;
+margin-left: -43px;
+margin-top: 15px;
+border-radius: 10px;
+outline: none;
+color: white;
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+padding: 0px 10px;
+font-size: 15px;
+transition: all 0.5s ease-out;
+}
+
+
+
+#email::placeholder {
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    opacity: 1;
+    opacity: 0.7;
+    }
+
+
+
+#email:focus {
+    border: 2px solid #6366F1;
+}
+
+
+
+footer {
+    margin-top: 10px;
+    width: 665px;
+    height: 157px;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer p {
+width: 286px;
+padding-top: 10px;
+height: 34px;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+color: rgba(255, 255, 255, 0.6);
+margin-left: -5px;
+}
+
+footer span {
+    color: #818CF8;
+    font-weight: 600;
+    }
+
+    .changer-boxes2 span {
+        color: #818CF8;
+        font-weight: 600;
+        }
+
+    .changer-boxes2 #power {
+        margin-top: 188px;
+}
+.changer-boxes2  h6 {
+        margin-left: 460px;
+        margin-top: 205px;
+        font-weight: 600;
+        font-size: 11px;
+}
+footer button {
+
+width: 233px;
+height: 53px;
+
+background: #818CF8;
+border-radius: 10px;
+border-color: transparent;
+font-weight: 600;
+font-size: 22px;
+color: #FFFFFF;
+margin-top: -10px;
+margin-left: -12px;
+transition: all 0.5s ease-out;
+}
+
+
+footer button:hover {
+    background: #3b4efa;
+    }
+
+
+footer h6 {
+    margin-left: 500px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+#power {
+    position: fixed;
+    margin-top: 0px;
+    padding-left: 49px;
+}
+
+
+
+.item-box .photo {
+width: 86.92px;
+height: 84px;
+border-radius: 50%;
+background: #475569;
+margin-left: 10px;
+margin-top: 15px;
+display: flex;
+}
+
+
+.item-box .photo img {
+    border-radius: 50%;
+    
+}
+
+#appendedChildFoot {
+    position: fixed;
+}
+
+#textError {
+    color: red;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 130px;
+    position: fixed;
+}
+
+#textError2 {
+    color: red;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 120px;
+    position: fixed;
+}
+
+
+#end-button {
+
+
+        width: 233px;
+        height: 53px;
+        
+        background: #818CF8;
+        border-radius: 10px;
+        border-color: transparent;
+        font-weight: 600;
+        font-size: 22px;
+        color: #FFFFFF;
+        transition: all 0.5s ease-out;
+        
+}
+
+.textes-item-boxes {
+    width: 186px;
+    min-height: 113px;
+    margin-left: 105px;
+    margin-top: -98px;
+}
+
+
+.textes-item-boxes #header-text {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.textes-item-boxes #price-box {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -18px;
+}
+
+
+.textes-item-boxes #price-box span{
+color: #818CF8;
+font-weight: 600;
+font-size: 14px;
+}
+
+.textes-item-boxes #box-desc{
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+color: #ffffff;
+margin-top: -13px;
+}
+
+
+.logo-server {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    margin-left: 570px;;
+    margin-top: -18px;
+}
+
+
+.ring{
+    position:absolute;
+    margin-left: 225px;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: ring 2s linear infinite;
+}
+@keyframes ring {
+    0%{
+    transform: rotate(0deg);
+    box-shadow: 1px 5px 2px #818CF8;
+    }
+    50%{
+      transform: rotate(180deg);
+    bx-shadow: 1px 5px 2px #818CF8;
+    }
+    100%{
+    transform: rotate(360deg);
+    box-shadow: 1px 5px 2px #818CF8;
+    }
+}
+.ring:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255,255,255,.3);
+}
+
+#paymentToks {
+    position: fixed;
+
+font-weight: 400;
+font-size: 20px;
+margin-left: 185px;
+margin-top: 220px;
+color: #FFFFFF;
+
+
+}
+
+
+
+#paymentToks span {
+color: #818CF8;
+}
+
+
+#linktopays {
+
+    width: 434px;
+    height: 39px;
+    border-color: transparent;
+    background: #475569;
+    margin-left: 100px;
+    margin-top: 265px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 10px;
+    font-size: 15px;
+    transition: all 0.5s ease-out;
+    position: fixed;
+
+    }
+    
+    
+    
+    #linktopays::placeholder {
+        color: white;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        opacity: 1;
+        opacity: 0.7;
+        }
+    
+    
+    
+    #linktopays:focus {
+        border: 2px solid #6366F1;
+    }
+
+    #canceltras {
+        position: fixed;
+        width: 243px;
+        height: 43px;
+        
+        background: #818CF8;
+        border-radius: 10px;
+        border-color: transparent;
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-top: 330px;
+        margin-left: 200px;
+        transition: all 0.5s ease-out;
+        }
+        
+        
+        #canceltras:hover {
+            background: #3b4efa;
+            }
+
+            #footer2 {
+                margin-top: 400px;
+            }
+
+            #footer2 button {
+                width: 330px;
+            }
+
+            .changer-boxes2 {
+                width: 665px;
+                height: 665px;
+            }
+            
+            .bank1 {
+            box-sizing: border-box;
+            width: 139px;
+            height: 73.28px;
+            background: #334155;
+            border: 1px solid #334155;
+            border-radius: 10px;
+            transition: all 0.5s ease-out;
+            
+            }
+            
+            .changer-boxes2 {
+                padding-left: 30px;
+                margin-top: -10px;
+            }
+            
+            .changer-boxes2 img {
+                margin-top: 5px;
+            }
+            
+            .changer-boxes2 p {
+                margin-top: -10px;
+                font-weight: 600;
+            }
+            
+            
+            .bank2 {
+                box-sizing: border-box;
+                width: 139px;
+                height: 73.28px;
+                background: #334155;
+                border: 1px solid #334155;
+                border-radius: 10px;
+                margin-left: 150px;
+                margin-top: -72px;
+                transition: all 0.5s ease-out;
+                }
+            
+            
+                .bank3 {
+                    box-sizing: border-box;
+                    width: 139px;
+                    height: 73.28px;
+                    background: #334155;
+                    border: 1px solid #334155;
+                    border-radius: 10px;
+                    margin-left: 300px;
+                    margin-top: -72px;
+                    transition: all 0.5s ease-out;
+                    }
+            
+            
+                    .bank4 {
+                        box-sizing: border-box;
+                        width: 139px;
+                        height: 73.28px;
+                        background: #334155;
+                        border: 1px solid #334155;
+                        border-radius: 10px;
+                        margin-left: 450px;
+                        transition: all 0.5s ease-out;
+                        margin-top: -72px;
+                        }
+            
+            
+                        .bank5 {
+                            box-sizing: border-box;
+                            width: 139px;
+                            height: 73.28px;
+                            background: #334155;
+                            border: 1px solid #334155;
+                            border-radius: 10px;
+                            margin-top: 12px;
+                            transition: all 0.5s ease-out;
+                            }
+                            
+            
+                            .bank6 {
+                                box-sizing: border-box;
+                                width: 139px;
+                                height: 73.28px;
+                                background: #334155;
+                                border: 1px solid #334155;
+                                border-radius: 10px;
+                                margin-left: 150px;
+                                margin-top: -72px;
+                                transition: all 0.5s ease-out;
+                                }
+                                
+            
+                                .bank7 {
+                                    box-sizing: border-box;
+                                    width: 139px;
+                                    height: 73.28px;
+                                    background: #334155;
+                                    border: 1px solid #334155;
+                                    border-radius: 10px;
+                                    margin-left: 300px;
+                                    margin-top: -72px;
+                                    transition: all 0.5s ease-out;
+                                }
+                                .bank8 {
+                                    box-sizing: border-box;
+                                    width: 139px;
+                                    height: 73.28px;
+                                    background: #334155;
+                                    border: 1px solid #334155;
+                                    border-radius: 10px;
+                                    margin-left: 450px;
+                                    margin-top: -72px;
+                                    transition: all 0.5s ease-out;
+                                }
+            
+                                .bank9 {
+                                    box-sizing: border-box;
+                                    width: 139px;
+                                    height: 73.28px;
+                                    background: #334155;
+                                    border: 1px solid #334155;
+                                    border-radius: 10px;
+                                    margin-top: 12px;
+                                    transition: all 0.5s ease-out;
+                                    }
+            
+                                    .bank10 {
+                                        box-sizing: border-box;
+                                        width: 139px;
+                                        height: 73.28px;
+                                        background: #334155;
+                                        border: 1px solid #334155;
+                                        border-radius: 10px;
+                                        margin-left: 150px;
+                                        margin-top: -72px;
+                                        transition: all 0.5s ease-out;
+                                        }
+            
+                                        .bank11 {
+                                            box-sizing: border-box;
+                                            width: 139px;
+                                            height: 73.28px;
+                                            background: #334155;
+                                            border: 1px solid #334155;
+                                            border-radius: 10px;
+                                            margin-left: 300px;
+                                            margin-top: -72px;
+                                            transition: all 0.5s ease-out;
+                                            }
+            
+                                            .bank12 {
+                                                box-sizing: border-box;
+                                                width: 139px;
+                                                height: 73.28px;
+                                                background: #334155;
+                                                border: 1px solid #334155;
+                                                border-radius: 10px;
+                                                margin-left: 450px;
+                                                margin-top: -72px;
+                                                transition: all 0.5s ease-out;
+                                                }
+            
+                                                
+                                                .bank13 {
+                                                    box-sizing: border-box;
+                                                    width: 139px;
+                                                    height: 73.28px;
+                                                    background: #334155;
+                                                    border: 1px solid #334155;
+                                                    border-radius: 10px;
+                                                    margin-top: 12px;
+                                                    transition: all 0.5s ease-out;
+                                                    }
+                                                    
+            
+                                                    .bank14 {
+                                                        box-sizing: border-box;
+                                                        width: 139px;
+                                                        height: 73.28px;
+                                                        background: #334155;
+                                                        border: 1px solid #334155;
+                                                        border-radius: 10px;
+                                                        margin-left: 150px;
+                                                        margin-top: -72px;
+                                                        transition: all 0.5s ease-out;
+                                                        }
+            
+                                                        .bank15 {
+                                                            box-sizing: border-box;
+                                                            width: 139px;
+                                                            height: 73.28px;
+                                                            background: #334155;
+                                                            border: 1px solid #334155;
+                                                            border-radius: 10px;
+                                                            margin-left: 300px;
+                                                            margin-top: -72px;
+                                                            transition: all 0.5s ease-out;
+                                                            }
+            
+                                                            .bank16 {
+                                                                box-sizing: border-box;
+                                                                width: 139px;
+                                                                height: 73.28px;
+                                                                background: #334155;
+                                                                border: 1px solid #334155;
+                                                                border-radius: 10px;
+                                                                margin-left: 450px;
+                                                                margin-top: -72px;
+                                                                transition: all 0.5s ease-out;
+                                                                }
+                                                .bank17 {
+                                                    box-sizing: border-box;
+                                                    width: 139px;
+                                                    height: 73.28px;
+                                                    background: #334155;
+                                                    border: 1px solid #334155;
+                                                    border-radius: 10px;
+                                                    margin-top: 12px;
+                                                    transition: all 0.5s ease-out;
+                                                    }
+            
+                                                    .bank18 {
+                                                        box-sizing: border-box;
+                                                        width: 139px;
+                                                        height: 73.28px;
+                                                        background: #334155;
+                                                        border: 1px solid #334155;
+                                                        border-radius: 10px;
+                                                        margin-left: 150px;
+                                                        margin-top: -72px;
+                                                        transition: all 0.5s ease-out;
+                                                        }
+                                                        .bank19 {
+                                                            box-sizing: border-box;
+                                                            width: 139px;
+                                                            height: 73.28px;
+                                                            background: #334155;
+                                                            border: 1px solid #334155;
+                                                            border-radius: 10px;
+                                                            margin-left: 300px;
+                                                            margin-top: -72px;
+                                                            transition: all 0.5s ease-out;
+                                                            }
+            
+                                                            .bank20 {
+                                                                box-sizing: border-box;
+                                                                width: 139px;
+                                                                height: 73.28px;
+                                                                background: #334155;
+                                                                border: 1px solid #334155;
+                                                                border-radius: 10px;
+                                                                margin-left: 450px;
+                                                                margin-top: -72px;
+                                                                transition: all 0.5s ease-out;
+                                                                }
+            .bank1:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            
+            .bank2:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank3:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            
+            .bank4:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank5:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank6:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank7:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank8:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank9:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank10:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank11:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank12:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank13:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank14:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank15:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank16:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank17:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank18:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank19:hover {
+                border: 1.5px solid #6366F1;
+            }
+            
+            .bank20:hover {
+                border: 1.5px solid #6366F1;
+            }
